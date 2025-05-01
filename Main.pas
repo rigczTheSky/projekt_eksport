@@ -143,7 +143,7 @@ begin
     'SELECT export_name AS Nazwa, ' +
     'CAST(export_dt AS DATE) AS Data, ' +
     'CONVERT(VARCHAR(5), export_dt, 108) AS Godzina, ' +
-    'export_creator AS [U ytkownik], ' +
+    'export_creator AS [U¿ytkownik], ' +
     'local_name AS Lokal ' +
     'FROM exports ' +
     'WHERE export_dt >= :DateFrom AND export_dt < :DateToPlusOne';
